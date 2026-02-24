@@ -1,1 +1,1 @@
-web: gunicorn govtdrish_backend.wsgi
+web: gunicorn govtdrish-backend.wsgi
