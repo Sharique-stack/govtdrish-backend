@@ -1,1 +1,1 @@
-web: gunicorn govtdrish-backend.wsgi
+web: gunicorn core.wsgi --bind 0.0.0.0:$PORT
