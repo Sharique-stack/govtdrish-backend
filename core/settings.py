@@ -146,3 +146,4 @@ CORS_ALLOW_CREDENTIALS = True
 # 4. STATIC FILES (For Admin Panel CSS)
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
